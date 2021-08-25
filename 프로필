@@ -1,0 +1,20 @@
+<article>
+        <img id="truck" src="css/트럭.png">
+        <h1 id="sentence">Dongnae</h1>
+        <h1 id="scntence2">high school</h1>
+        <h1 id="scntence3">안녕하세요 <br>
+        저희는 동래팀입니다.</h1>
+        <h1 id="scntence4">저희 동래팀은...</h1>
+        <div id="background"></div>
+        <section>
+                <div id="left">
+                        <h1>부산광역시 동래구 낙민동에 위치한 <br>
+                        동래고등학교에서 나왔습니다.</h1>
+                        <p><b>동래고등학교는 1898년 9월 공립 <br>
+                        동래부학교로 설립되어, <br>
+                        2021년 현재 설립일 기준 125년이나 <br>
+                        되는 오래된 역사를 자랑합니다.</b></p>
+                </div>
+                <img id="right" src="css/동래고등학교.jpg">
+        </section>
+</article>

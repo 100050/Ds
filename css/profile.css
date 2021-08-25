@@ -1,0 +1,58 @@
+#truck {
+    margin-top: 50px;
+    width: 800px;
+}
+#background {
+    position: absolute;
+    top: 500px; left: 50%;
+    margin-left: -500px;
+    width: 1000px;
+    height: 1600px;
+    background-color: rgb(255, 217, 0);
+    display: block;
+    z-index: -1;
+}
+#sentence {
+    position: absolute;
+    top: 413px; left: 50%;
+    margin-left: -215.039px;
+    font-size: 100px;
+    z-index: 1;
+}
+#scntence2 {
+    position: absolute;
+    top: 600px; left: 50%;
+    margin-left: -166.0705px;
+    font-size: 60px;
+    z-index: 1;
+}
+#scntence3 {
+    position: absolute;
+    top: 1100px; left: 50%;
+    margin-left: -336.469px;
+    font-size: 70px;
+    z-index: 1;
+}
+#scntence4 {
+    position: absolute;
+    top: 1700px; left: 50%;
+    margin-left: -214.1015px;
+    font-size: 60px;
+    z-index: 1;
+}
+section {
+    margin-top: 1800px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 200px;
+    padding-bottom: 250px;
+}
+#left {
+    float: left;
+    text-align: left;
+}
+#right {
+    float: right;
+    width: 500px;
+}
+p { font-size: 15px; }

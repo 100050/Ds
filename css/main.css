@@ -1,0 +1,68 @@
+/* 상단 메뉴바 스타일 */
+h1 {
+    margin: 0;
+}
+header {
+    list-style: none;
+    float: left;
+    font-weight: bold;
+}
+.size {
+    position: fixed;
+    top: 0;
+    left: 0; right: 0;
+    margin: 0;
+    border-bottom: 1px solid gray;
+    background-color: white;
+    padding-left: 200px;
+    z-index: 2;
+}
+.padding {
+    padding-right: 100px;
+    height: 30px;
+    display: inline-block;
+}
+svg {
+    padding-top: 15px;
+    width: 20px; height: 20px;
+}
+.right, .right2 {
+    float: right;
+    list-style: none;
+    padding-right: 50px;
+}
+.right2 { padding-top: 15px; }
+button {
+    padding: 0;
+    border: 0;
+    background-color: white;
+}
+#text { text-decoration: none; }
+a:hover { text-decoration: underline; }
+/* 상단 드롭메뉴 스타일 */
+.padding:hover ul { visibility: visible; }
+.padding > ul {
+    list-style: none;
+    visibility: hidden;
+    background-color:rgba(255, 255, 255, 0.7);
+    position: absolute;
+    left: 0; right: 0;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 30px;
+    padding-left: 300px;
+}
+.padding > ul > li { padding-bottom: 30px; }
+#h { padding-bottom: 80px; }
+#h2 { padding-bottom: 150px; }
+/* 링크 스타일 */
+a {
+    color: black;
+    text-decoration: none;
+}
+/* 메인 내용 스타일 */
+main {
+    text-align: center;
+    margin-bottom: 100px;
+}
+body { margin: 0; }
